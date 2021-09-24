@@ -1,0 +1,29 @@
+{
+  "name": "js-11-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /js-11-colorswith/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viacheslav-Koksharov/js-11-timer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viacheslav-Koksharov/js-11-timer/issues"
+  },
+  "homepage": "https://Viacheslav-Koksharov.github.io/js-11-timer",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}

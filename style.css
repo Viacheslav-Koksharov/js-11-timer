@@ -1,0 +1,41 @@
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #5d249e;
+}
+.timer {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.field {
+  min-width: 100px;
+  min-height: 150px;
+  margin: 0 30px;
+  border-radius: 30px;
+  background-color: #5d249e;
+}
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  padding: 0px 5px;
+  font-size: 75px;
+  background-image: linear-gradient(to left, #a0bbee, #2d114d);
+  color: #e6c1c1;
+  border-radius: 30px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  font-size: 16px;
+  color: #ffffff;
+}
